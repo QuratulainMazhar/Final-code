@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    android:paddingTop="150dp"
+    tools:context=".option">
+
+    <Button
+
+        android:layout_width="230dp"
+        android:layout_marginLeft="90dp"
+        android:layout_height="wrap_content"
+        android:onClick="drinks"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+
+        android:background="@drawable/button_shape"
+        android:text="Drinks"
+        android:textColor="#ffffff" />
+    <Button
+
+        android:layout_width="230dp"
+
+        android:layout_height="wrap_content"
+
+        android:onClick="desserts"
+        android:layout_marginBottom="50dp"
+
+        android:layout_marginLeft="90dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_shape"
+        android:text="Desserts"
+        android:textColor="#ffffff" />
+    <Button
+
+        android:layout_width="230dp"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="mainchoic"
+
+        android:layout_marginLeft="90dp"
+
+        android:textStyle="bold"
+        android:background="@drawable/button_shape"
+        android:text="Cacks"
+        android:textColor="#ffffff" />
+
+
+
+</LinearLayout>
